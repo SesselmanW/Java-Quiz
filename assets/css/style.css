@@ -1,10 +1,16 @@
 *{
     background-color: black;
+    color:white;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-size: 62.5%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*! HOME PAGE DISPLAY */
+#home {
+    display:none;
 }
 
 h1{
@@ -23,6 +29,7 @@ h2{
     position: fixed;
     top: 50%;
     left: 50%;
+    /* display: none; */
 }
 
 .flex-column {
@@ -34,14 +41,6 @@ h2{
     justify-content:center;
     align-items: center;
 }
-
-/* .text-center {
-    text-align: center;
-} */
-
-/* .hidden {
-    display:none;
-} */
 
 .button {
     font-size: 25px;
@@ -57,4 +56,109 @@ h2{
 
 .button:hover {
     box-shadow: 10px 7px 5px 0 red;
+    transform: scale(1.05);
+    transform: transform 100ms;
+}
+/* !QUIZ PAGE DISPLAY */
+#quiz-page {
+    display:none;
+}
+#timer {
+    font-size: 50px;
+    color: red;
+    border: 5px yellow solid;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#questions {
+    font-size: 50px;
+    border: 5px yellow solid;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: teal;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 15px;
+    width: 50%;
+    border-radius: 4px;
+    background: magenta;
+    font-size: 50px;
+    min-width: 800px;
+    margin-left: 350px;
+    border: 1px magenta solid;
+}
+
+.choice-container:hover {
+    box-shadow: 10px 7px 5px 0 purple;
+    transform: scale(1.05);
+    transform: transform 100ms;
+}
+
+.choice-letter {
+    padding: 2rem 2.5rem;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+#home-Btn {
+    font-size: 20px;
+    padding: 25px 0;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    background: yellow;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 50px; 
+    margin-left: 1200px;
+}
+
+#home-Btn:hover {
+    box-shadow: 10px 7px 5px 0 red;
+    transform: scale(1.05);
+    transform: transform 100ms;
+}
+/* !POST GAME DISPLAY */
+/* #postGame {
+    display: none;
+} */
+
+#postGame {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#initials {
+    margin: 5px;
+    height: 50px;
+    text-align: center;
+}
+
+.postGame-Button {
+    height: 30px;
+    border: 1px magenta solid;
+    font-size: 25px;
+    padding: 25px 0;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.postGame-Button:hover {
+    box-shadow: 10px 7px 5px 0 purple;
+    transform: scale(1.05);
+    transform: transform 100ms;
 }
