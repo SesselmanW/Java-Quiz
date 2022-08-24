@@ -9,7 +9,7 @@
 }
 
 /*! HOME PAGE DISPLAY */
-#home {
+.hide {
     display:none;
 }
 
@@ -60,9 +60,6 @@ h2{
     transform: transform 100ms;
 }
 /* !QUIZ PAGE DISPLAY */
-#quiz-page {
-    display:none;
-}
 #timer {
     font-size: 50px;
     color: red;
@@ -127,10 +124,6 @@ h2{
     transform: transform 100ms;
 }
 /* !POST GAME DISPLAY */
-/* #postGame {
-    display: none;
-} */
-
 #postGame {
     text-align: center;
     flex-direction: column;
